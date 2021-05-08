@@ -22,7 +22,7 @@
 }
 @media(max-width:1020px){
     .seller-access-details{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
     }
     .seller-singup-pragraph{
       text-align: center;
@@ -98,7 +98,10 @@
     .img1,.img2,.img3{
         max-width: 100%;
     }
+    
 }
+
+
 @media(max-width:1200px){
     .video-details{
         grid-template-columns: repeat(1, 1fr);
@@ -123,7 +126,80 @@
         width: 100%;
     }
 }
+/*asked-area*/
+@media(max-width:991px){
+    .question-text h2{
+        font-size: 24px;
+    }
+    .question-text p{
+        font-size: 22px;
+    }
+    .asked-title h1{
+        font-size: 38px;
+    }
+}
+@media(max-width:800px){
+    .question-text h2{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .question-text p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .asked-title h1{
+        font-size: 28px;
+        padding: 20px 20px;
+    }
+}
+@media(max-width:480px){
+    .question-text h2{
+        font-size: 18px;
+        margin-bottom: 15px;
+        line-height: 22px;
+    }
+    .question-text p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .asked-title h1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
 
+/*seller-details*/
+@media(max-width:991px){
+    .seller-details-main{
+        display: block;
+    }
+    .seller-img{
+        margin: 0px;
+    }
+    .seller-img img{
+        max-height: 600px;
+        min-width: 100%;
+    }
+    .seller-text-details{
+        padding: 30px 15px 20px 15px;
+    }
+}
+@media(max-width:600px){
+    .seller-text-details h2{
+        font-size: 17px;
+        margin-bottom: 15px;
+
+    }
+    .seller-text-details h3{
+        font-size: 17px;
+        margin-bottom: 15px;
+
+    }
+    .seller-text-details p{
+        font-size: 16px;
+
+    }
+}
 
 
 

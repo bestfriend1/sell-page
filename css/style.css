@@ -17,7 +17,7 @@ body{
 }
 img{
     display:block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 a{
@@ -324,7 +324,7 @@ span,i{
 .video-area{
 	display: block;
 	width: 100%;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 .video-details{
 	background-color: #071938;
@@ -366,7 +366,138 @@ span,i{
 	display: block;
 }
 
+/***********seller-details*****/
+.seller-details{
+	display: block;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.seller-details-main{
+	display: flex;
+	align-items: flex-start;
+	background-color: #e0e3ec;
+	justify-content: flex-start;
+	flex-direction: row;
+	border-radius: 5px;
+}
+.seller-img{
+	margin-right: 30px;
+	
 
+}
+.seller-img img{
+	min-width: 300px;
+}
+.seller-text-details{
+	display: block;
+	padding: 40px 40px 10px 10px;
+	box-sizing: border-box;
+	height: auto;
+}
+.seller-text-details h2{
+	font-weight: 600;
+	font-size: 20px;
+	font-style: normal;
+	display: block;
+	font-family: 'Rubik',sans-serif;
+	margin-bottom: 4vh;
+	line-height: 30px;
+}
+.seller-text-details h3{
+	font-weight: 600;
+	font-size: 20px;
+	font-style: normal;
+	display: block;
+	font-family: 'Rubik',sans-serif;
+	margin-bottom:20px;
+	line-height: 25px;
+}
+.seller-text-details p{
+	font-weight: 400;
+	font-family: 'Rubik',sans-serif;
+	font-style: normal;
+	display: block;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****adked-question*********/
+.asked-question{
+	display: block;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+}
+.asked-title{
+	display: block;
+	margin-bottom: 7vh;
+	text-align: center;
+}
+.asked-title h1{
+	background-color: #f57224;
+	font-weight: 700;
+	font-size: 46px;
+	color: #fff;
+	display: inline-block;
+	padding: 30px 30px;
+	box-sizing: border-box;
+	font-style: normal;
+	font-family: 'Rubik',sans-serif;
+	text-transform: uppercase;
+	border-radius: 35px 0px 35px 0px;
+	letter-spacing: 2px;
+}
+.question{
+	display: block;
+	width: 95%;
+	margin: auto;
+}
+.question-text{
+	margin-bottom: 30px;
+}
+.question-text h2{
+	font-weight: 600;
+	color: #000;
+	font-size: 27px;
+	font-family: 'Rubik',sans-serif;
+	font-style: normal;
+	display: block;
+	margin-bottom: 20px;
+}
+.question-text p{
+	font-weight: 400;
+	font-family: 'Rubik',sans-serif;
+	color: #000;
+	font-style: normal;
+	display: block;
+	font-size: 26px;
+	display: block;
+	line-height: 40px;
+	margin-bottom: 10px;
+}
 
 
 /**************footer-area******************/
